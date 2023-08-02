@@ -36,32 +36,49 @@ p {
 }
 
 }
+/* Styles for the footer */
 .footer {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
+  padding: 20px;
 }
 
-.footer ul {
+/* Styles for the footer links */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-.footer li {
-  display: inline-block;
+.footer-links li {
   margin-right: 20px;
+  display: inline;
 }
 
-.footer li:last-child {
+.footer-links li:last-child {
   margin-right: 0;
 }
 
-.footer a {
-  color: white;
+.footer-links a {
+  color: #fff;
   text-decoration: none;
 }
 
-.footer a:hover {
-  color: red;
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for the copyright text */
+.footer-copyright {
+  margin: 0;
+}
+
   text-decoration: underline;
 }
